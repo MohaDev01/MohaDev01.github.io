@@ -1,0 +1,105 @@
+.topics-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topic {
+  color: rgb(221, 221, 221);
+  font-size: 14px;
+  margin-right: 24px;
+  text-decoration: none;
+}
+.separator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 500px;
+}
+.separator-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.topic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-topic {
+  background-color: rgb(221, 221, 221);
+  color: rgb(19, 19, 20);
+  font-size: 18px;
+  padding: 4px 40px 4px 40px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
+  row-gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+}
+.block-topic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+  background-color: rgb(35, 38, 40);
+  color: rgb(221, 221, 221);
+  font-size: 14px;
+  text-decoration: none;
+
+  padding: 24px 0px 24px 0px;
+  border: 2px solid rgb(163, 180, 186);
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 1);
+  transition: box-shadow 0.2s, border-color 0.2s, background-color 0.2s;
+  cursor: pointer;
+}
+.block-topic:hover {
+  border-color: rgb(4, 217, 255);
+  box-shadow: inset 0px 0px 100px rgba(0, 128, 128, 1);
+  background-color: rgb(19, 19, 20);
+}
+.block-topic:active {
+  border-color: rgb(255, 49, 49);
+  box-shadow: inset 0px 0px 15px rgba(255, 49, 49, 1);
+  background-color: rgb(19, 19, 20);
+}
+@media (min-width: 960px) {
+  .grid {
+    grid-template-columns: 200px 200px 200px;
+  }
+}
+@media (max-width: 614.5px) {
+  .grid {
+    grid-template-columns: 200px 200px;
+  }
+}
+@media (max-width: 384px) {
+  .grid {
+    grid-template-columns: 200px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: 120px 120px 120px;
+    column-gap: 6px;
+  }
+  .block-topic {
+    font-size: 7px;
+    padding: 20px 0px 20px 0px;
+  }
+}

@@ -1,0 +1,29 @@
+.greetings-container {
+  display: flex;
+  position: absolute;
+}
+.greetings-container .dynamic-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  color: rgb(221, 221, 221);
+  border-right: 0.1px solid;
+  letter-spacing: 4px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s infinite alternate,
+             cursor 6s infinite alternate;
+}
+@keyframes cursor {
+  50% {border-color: transparent;}
+}
+@keyframes typing {
+  from {width: 0;}
+}
+@media screen and (max-width: 600px) {
+  .greetings-container .dynamic-text {
+    font-size: 5.5px;
+  }
+}

@@ -1,0 +1,144 @@
+.logo-container2 {
+  background-color: rgb(221, 221, 211);
+  border-radius: 4px;
+  padding: 4px 4px 4px 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.logo-icon-link {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: viga;
+  text-decoration: none;
+}
+.web-url {
+  color: rgb(221, 221, 221);
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+.web-url:hover {
+  color: white;
+}
+.web-builder-socials-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin-top: 110px;
+}
+.web-builder-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socials-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  column-gap: 20px;
+}
+.web-builder-logo {
+  width: 60px;
+  height: 40px;
+  object-fit: fit;
+  margin-right: 10px;
+}
+.credit-to {
+  color: rgb(149, 149, 150);
+  font-size: 20px;
+  margin-right: 10px;
+}
+.credit-name {
+  color: rgb(221, 221, 221);
+  font-size: 20px;
+  font-weight: bold;
+}
+.mail-platform,
+.instagram-platform,
+.linkedin-platform,
+.github-platform {
+  width: 27px;
+  height: 27px;
+  transition: width 0.15s, height 0.15s;
+}
+.mail-platform:hover,
+.instagram-platform:hover,
+.linkedin-platform:hover,
+.github-platform:hover {
+  width: 30px;
+  height: 30px;
+}
+@media (min-width: 1000px) and (max-width: 1536px) {
+  .web-builder-container {
+    margin-left: 400px;
+  }
+  .socials-container {
+    margin-right: 400px;
+  }
+}
+@media (mix-width: 668px) {
+  .web-builder-container {
+    margin-left: 200px;
+  }
+  .socials-container {
+    margin-right: 200px;
+  }
+}
+.copyright-statement {
+  display: flex;
+  color: rgb(149, 149, 150);
+  justify-content: center;
+  margin: 0px 0px 0px -500px;
+  font-size: 12.8px;
+}
+@media screen and (max-width: 600px) {
+  .mail-platform,
+  .instagram-platform,
+  .linkedin-platform,
+  .github-platform {
+    width: 16px;
+    height: 16px;
+  }
+  .credit-name {
+    font-size: 12px;
+  }
+  .credit-to {
+    font-size: 10px;
+  }
+  .socials-container {
+    margin-right: 5px;
+    column-gap: 10px;
+  }
+  .web-builder-logo {
+    width: 20px;
+    height: 10px;
+  }
+  .copyright-statement {
+    display: flex;
+    color: rgb(149, 149, 150);
+    justify-content: center;
+    margin: 0px 0px 0px -150px;
+    font-size: 12.8px;
+  }
+  .logo-container2 {
+    padding: 2px 2px 2px 2px;
+  }
+  .logo-container2 .logo-icon-link {
+    font-size: 12px;
+  }
+  .web-url {
+    font-size: 12px;
+  }
+  .web-builder-socials-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-top: 220px;
+  }
+}

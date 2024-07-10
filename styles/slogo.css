@@ -1,0 +1,38 @@
+.slogo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+}
+.title-container {
+  display: inline-block;
+}
+.title {
+  color: rgb(221, 221, 221);
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 300px;
+  margin-bottom: 1px;
+}
+.subtitle {
+  font-size: 19px;
+  font-weight: bold;
+  color: rgb(221, 221, 221);
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 600px) {
+  .title-container {
+    margin-top: -200px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 12px;
+  }
+}
