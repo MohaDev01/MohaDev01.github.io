@@ -1,3 +1,6 @@
+.separator {
+  margin-top: 500px;
+}
 .topics-container {
   display: flex;
   justify-content: center;
@@ -13,13 +16,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 500px;
-}
-.separator-container2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 100px;
+}
+.separator-icon {
+  width: 500px;
+  height: 50px;
 }
 .topic-container {
   display: flex;
