@@ -15,9 +15,8 @@ body {
 @media screen and (max-width: 600px) {
   .back-video {
     top: 0;
-    bottom: none;
   }
   body {
-    height: 3800px;
+    height: 3500px;
   }
 }

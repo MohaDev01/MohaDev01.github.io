@@ -38,18 +38,12 @@
 }
 .grid {
   display: grid;
-  grid-template-columns: 200px 200px 200px;
+  grid-template-columns: 120px 120px 120px;
   row-gap: 8px;
+  column-gap: 16px;
   justify-content: center;
   align-items: center;
 }
-/*.block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  width: 100px;
-}*/
 .block-topic {
   display: flex;
   justify-content: center;

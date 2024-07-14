@@ -122,7 +122,7 @@
     display: flex;
     color: rgb(149, 149, 150);
     justify-content: center;
-    margin: 0px 0px 0px -150px;
+    margin: 0px 0px 0px -145px;
     font-size: 14px;
   }
   .logo-container2 {
@@ -130,10 +130,10 @@
     opacity: 1;
   }
   .logo-container2 .logo-icon-link {
-    font-size: 16px;
+    font-size: 18px;
     opacity: 1;
   }
   .web-url {
-    font-size: 16px;
+    font-size: 18px;
   }
 }

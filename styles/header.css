@@ -156,12 +156,15 @@
 }
 @media screen and (max-width: 600px) {
   .logo-container {
+    z-index: -20;
     opacity: 0;
   }
   .logo-container .logo-icon-link {
+    z-index: -20;
     opacity: 0;
   }
   .logo-icon-link {
+    z-index: -20;
     opacity: 0;
   }
   .hamburger-menu,
