@@ -24,6 +24,9 @@
 }
 @media screen and (max-width: 600px) {
   .greetings-container .dynamic-text {
-    font-size: 5.5px;
+    font-size: 12px;
+  }
+  .greetings-container {
+    width: 100%;
   }
 }

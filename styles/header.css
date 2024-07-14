@@ -156,16 +156,24 @@
 }
 @media screen and (max-width: 600px) {
   .logo-container {
-    padding: 2px 4px 2px 4px;
-    margin: -40px 0px 0px 0px;
+    opacity: 0;
   }
   .logo-container .logo-icon-link {
-    font-size: 12px;
+    opacity: 0;
   }
-  .hamburger-menu {
+  .logo-icon-link {
+    opacity: 0;
+  }
+  .hamburger-menu,
+  .hamburger-menu2 {
     width: 20px;
     height: 20px;
-    margin: -17px 0px 0px 10px;
+    margin: -17px 0px 0px -60px;
+  }
+  .hamburger-menu-changer .tooltip {
+    height: 180px;
+    margin: 0px 0px 0px -60px;
+    z-index: 20;
   }
   .about-button {
     font-size: 12px;

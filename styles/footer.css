@@ -101,37 +101,39 @@
   .instagram-platform,
   .linkedin-platform,
   .github-platform {
-    width: 16px;
-    height: 16px;
+    width: 75%;
+    height: 75%;
   }
   .credit-name {
-    font-size: 12px;
+    font-size: 16px;
   }
   .credit-to {
-    font-size: 10px;
+    font-size: 14px;
   }
   .socials-container {
-    margin-right: 5px;
     column-gap: 10px;
+    flex-direction: column;
   }
   .web-builder-logo {
-    width: 20px;
-    height: 10px;
+    width: 100%;
+    height: 100%;
   }
   .copyright-statement {
     display: flex;
     color: rgb(149, 149, 150);
     justify-content: center;
     margin: 0px 0px 0px -150px;
-    font-size: 12.8px;
+    font-size: 14px;
   }
   .logo-container2 {
     padding: 2px 2px 2px 2px;
+    opacity: 1;
   }
   .logo-container2 .logo-icon-link {
-    font-size: 12px;
+    font-size: 16px;
+    opacity: 1;
   }
   .web-url {
-    font-size: 12px;
+    font-size: 16px;
   }
 }

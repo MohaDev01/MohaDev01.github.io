@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, Arial;
+  font-family: Roboto, Viga;
   background-color: rgb(19, 19, 20);
   height: 2600px;
 }
@@ -15,8 +15,9 @@ body {
 @media screen and (max-width: 600px) {
   .back-video {
     top: 0;
+    bottom: none;
   }
   body {
-    height: 2350px;
+    height: 3800px;
   }
 }
