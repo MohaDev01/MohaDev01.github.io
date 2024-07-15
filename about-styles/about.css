@@ -1,18 +1,15 @@
 .about-container {
-  display: flex;
-  align-items: center;
-  column-gap: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
 }
 .about-section {
-  display: flex;
-  flex-direction: column;
-  width: 500px;
   margin-top: 26px;
   background-color: rgb(221, 221, 221);
   z-index: 40;
   border-radius: 10px;
   padding: 30px 20px 30px 20px;
-  margin: 50px 0px 0px 50px;
   box-shadow: inset 0px 0px 100px rgba(0, 128, 128, 1);
   transition: box-shadow 1s, padding 1s;
 }
@@ -77,33 +74,31 @@
 }
 @media screen and (max-width: 600px) {
   .about-container {
-    column-gap: 10px;
+    top: 40%;
+    width: 85%;
   }
   .about-section {
-    width: 200px;
-    margin-top: 20px;
-    padding: 30px 20px 30px 20px;
-    margin: 10px 0px 0px 10px;
+    margin-top: 350px;
   }
   .text {
-    font-size: 10px;
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
   }
   .point {
-    font-size: 8px;
+    font-size: 14px;
     font-weight: bold;
     margin-bottom: 10px;
   }
   .connect-text {
-    font-size: 8px;
+    font-size: 14px;
     font-weight: bold;
   }
   .mail-platform-image,
   .instagram-platform-image,
   .linkedin-platform-image,
   .github-platform-image {
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
   }
 }

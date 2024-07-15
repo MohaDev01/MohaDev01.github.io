@@ -2,8 +2,7 @@
   background-color: rgb(221, 221, 211);
   border-radius: 4px;
   padding: 4px 4px 4px 4px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0px 10px 0 10px;
 }
 .logo-icon-link {
   color: black;
@@ -37,10 +36,9 @@
 }
 .socials-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 10px;
-  column-gap: 20px;
 }
 .web-builder-logo {
   width: 60px;
@@ -73,72 +71,34 @@
   width: 30px;
   height: 30px;
 }
-@media (min-width: 1000px) and (max-width: 1536px) {
-  .web-builder-container {
-    margin-left: 400px;
-  }
-  .socials-container {
-    margin-right: 400px;
-  }
-}
-@media (mix-width: 668px) {
-  .web-builder-container {
-    margin-left: 200px;
-  }
-  .socials-container {
-    margin-right: 200px;
-  }
-}
 .copyright-statement {
   display: flex;
   color: rgb(149, 149, 150);
   justify-content: center;
-  margin: 0px 0px 0px -500px;
+  margin: 0px 0px 0px -550px;
   font-size: 12.8px;
 }
 @media screen and (max-width: 600px) {
-  .mail-platform,
-  .instagram-platform,
-  .linkedin-platform,
-  .github-platform {
-    width: 16px;
-    height: 16px;
-  }
-  .credit-name {
-    font-size: 12px;
-  }
-  .credit-to {
-    font-size: 10px;
-  }
-  .socials-container {
-    margin-right: 5px;
-    column-gap: 10px;
-  }
-  .web-builder-logo {
-    width: 20px;
-    height: 10px;
-  }
-  .copyright-statement {
-    display: flex;
-    color: rgb(149, 149, 150);
-    justify-content: center;
-    margin: 0px 0px 0px -150px;
-    font-size: 12.8px;
-  }
   .logo-container2 {
-    padding: 2px 2px 2px 2px;
+    padding: 4px 4px 4px 4px;
   }
   .logo-container2 .logo-icon-link {
-    font-size: 12px;
+    font-size: 18px;
   }
   .web-url {
-    font-size: 12px;
+    font-size: 18px;
   }
   .web-builder-socials-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    margin-top: 220px;
+    margin-top: 200px;
+  }
+  .credit-to {
+    font-size: 18px;
+  }
+  .credit-name {
+    font-size: 18px;
+  }
+  .copyright-statement {
+    margin: 0px 0px 0px -115px;
+    font-size: 14px;
   }
 }
