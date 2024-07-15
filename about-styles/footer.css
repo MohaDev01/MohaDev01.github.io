@@ -1,3 +1,4 @@
+
 .logo-container2 {
   background-color: rgb(221, 221, 211);
   border-radius: 4px;
@@ -36,9 +37,10 @@
 }
 .socials-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: 10px;
+  column-gap: 20px;
 }
 .web-builder-logo {
   width: 60px;
@@ -75,7 +77,7 @@
   display: flex;
   color: rgb(149, 149, 150);
   justify-content: center;
-  margin: 0px 0px 0px -550px;
+  margin: 0px 0px 0px -545px;
   font-size: 12.8px;
 }
 @media screen and (max-width: 600px) {
