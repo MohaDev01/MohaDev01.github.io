@@ -72,6 +72,21 @@
   width: 20px;
   height: 20px;
 }
+.mail-platform,
+.instagram-platform,
+.linkedin-platform,
+.github-platform {
+  width: 27px;
+  height: 27px;
+  transition: width 0.15s, height 0.15s;
+}
+.mail-platform:hover,
+.instagram-platform:hover,
+.linkedin-platform:hover,
+.github-platform:hover {
+  width: 30px;
+  height: 30px;
+}
 @media screen and (max-width: 600px) {
   .about-container {
     top: 40%;
